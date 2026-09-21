@@ -2,34 +2,17 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta name="robots" content="noindex, nofollow, noarchive">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privát videó</title>
-
-    <style>
-        body {
-            margin: 0;
-            background: #111;
-            color: white;
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        video {
-            width: 90%;
-            max-width: 1000px;
-        }
-    </style>
+    <meta name="robots" content="noindex, nofollow">
+    <title>Videó</title>
 </head>
 
-<body>
+<body style="background:#111; margin:0;">
 
-    <video controls>
-        <source src="video.mp4" type="video/mp4">
-        A böngésződ nem támogatja a videó lejátszását.
+    <video autoplay muted playsinline controls
+           style="width:100%; max-height:100vh;">
+        <source src="hangyak.mp4" type="video/mp4">
+        A böngésződ nem tudja lejátszani ezt a videót.
     </video>
 
 </body>
